@@ -8,4 +8,3 @@ public class Banco {
   private List<Conta> contas;
   private List<Cliente> clientes;
 }
-

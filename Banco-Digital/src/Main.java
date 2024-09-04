@@ -11,9 +11,5 @@ public class Main {
     cc.extrato();
     cp.extrato();
   }
-
-  /**
-   * implementei validações nos métodos de saque, depósito e transferência
-   * para utilizar o lombok neste projeto sem maven, instalei o JAR do lombok e adicionei ao classpath do projeto
-   */
+  
 }

@@ -20,5 +20,4 @@ public class Cliente {
     this.telefone = telefone;
     this.endereco = endereco;
   }
-
 }

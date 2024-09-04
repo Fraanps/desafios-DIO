@@ -2,7 +2,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-public abstract class Conta implements IConta{
+@Setter
+public abstract class Conta implements IConta {
 
   private static int SEQUENCIAL = 1;
   private static int AGENCIA_PADRAO = 1;
@@ -54,6 +55,7 @@ public abstract class Conta implements IConta{
     System.out.println(String.format("Agencia: %s", this.agencia));
     System.out.println(String.format("Conta: %d", this.numConta));
     System.out.println(String.format("Saldo: R$ %.2f", this.saldo));
-    System.out.println("Cliente: " + this.cliente.getNome());
   }
+
+  public abstract void extrato();
 }
