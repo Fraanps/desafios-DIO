@@ -16,6 +16,8 @@ public class ContaTerminal {
     double saldo = 0.0;
 
     // Exibir as  mensagens para o nosso usuário
+    System.out.println("*** Vamos iniciar a criação de sua conta ***");
+    System.out.println("");
 
     // Obter pelo scanner os valores digitados no terminal
     System.out.print("Por favor, digite o número da Conta: ");
